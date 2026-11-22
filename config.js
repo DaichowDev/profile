@@ -76,8 +76,7 @@ window.PORTFOLIO = {
     loop: true,                 // al terminar la lista, vuelve a empezar
     // Poné tus archivos en la carpeta assets/music/
     tracks: [
-      { title: "Mi canción 1", artist: "Artista", src: "assets/music/cancion1.mp3", cover: "" },
-      { title: "Mi canción 2", artist: "Artista", src: "assets/music/cancion2.mp3", cover: "" }
+      { title: "Wings", artist: "Birdy", src: "Music01.mp3", cover: "" }
     ]
   },
 
