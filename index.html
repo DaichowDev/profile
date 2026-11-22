@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portafolio</title>
+  <meta name="description" content="Mi portafolio personal" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Capas de fondo -->
+  <div id="bg" aria-hidden="true"></div>
+  <div id="bg-overlay" aria-hidden="true"></div>
+  <canvas id="particles" aria-hidden="true"></canvas>
+
+  <!-- Pantalla de entrada (necesaria para que el navegador permita reproducir música) -->
+  <div id="enter" hidden>
+    <span id="enter-text">Click para entrar</span>
+  </div>
+
+  <!-- Contenido (lo genera main.js a partir de config.js) -->
+  <main id="app"></main>
+
+  <!-- Panel de categoría -->
+  <div id="modal" hidden>
+    <div class="modal-backdrop" data-close></div>
+    <section class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <header class="modal-head">
+        <div>
+          <h2 id="modal-title"></h2>
+          <p id="modal-desc" class="muted"></p>
+        </div>
+        <button class="icon-btn" data-close aria-label="Cerrar">✕</button>
+      </header>
+      <input id="modal-search" class="search" type="search" placeholder="Buscar…" />
+      <div id="modal-grid" class="items-grid"></div>
+    </section>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
