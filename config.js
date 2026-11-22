@@ -12,7 +12,7 @@
 
 window.PORTFOLIO = {
   /* Título de la pestaña del navegador */
-  title: "TuNombre | Portafolio",
+  title: "Daichow | Portafolio",
 
   /* Orden de las secciones. Reordená, quitá o repetí a gusto.
      Disponibles: "profile", "socials", "music", "skills", "categories" */
@@ -53,25 +53,25 @@ window.PORTFOLIO = {
 
   /* ---------- Perfil ---------- */
   profile: {
-    name: "TuNombre",
+    name: "Daichow",
     avatar: "https://avatars.githubusercontent.com/u/9919?v=4", // cambiá por tu foto
     avatarShape: "circle",      // "circle" | "rounded" | "square"
     // Si hay varias frases, rotan con efecto de tipeo
     tagline: [
-      "Desarrollador de software",
-      "Me gusta crear mods y proyectos open source",
-      "Siempre aprendiendo algo nuevo"
+      "Developer of Apps and Projects",
+      "Modding Games and Creating Mods",
+      "Trying to learn always"
     ],
-    bio: "Escribí acá una biografía corta sobre vos. Qué hacés, qué te gusta y qué estás aprendiendo.",
-    location: "Argentina",      // dejalo vacío "" para ocultarlo
-    badges: ["Estudiante", "Open source", "Gamer"] // etiquetitas opcionales
+    bio: "I like to learn new things everyday!",
+    location: "Argentina, Córdoba",      // dejalo vacío "" para ocultarlo
+    badges: ["Student", "Open source", "Modder", ""] // etiquetitas opcionales
   },
 
   /* ---------- Música ---------- */
   music: {
     enabled: true,
     enterScreen: true,          // pantalla "Click para entrar" (los navegadores bloquean el autoplay)
-    enterText: "Click para entrar",
+    enterText: "CLICK TO ENTER",
     volume: 0.4,                // 0 a 1
     loop: true,                 // al terminar la lista, vuelve a empezar
     // Poné tus archivos en la carpeta assets/music/
@@ -83,11 +83,8 @@ window.PORTFOLIO = {
 
   /* ---------- Redes sociales ---------- */
   socials: [
-    { name: "GitHub",    icon: "si:github",    url: "https://github.com/tuusuario" },
-    { name: "Discord",   icon: "si:discord",   url: "https://discord.com/users/000000000000000000" },
-    { name: "YouTube",   icon: "si:youtube",   url: "https://youtube.com/@tucanal" },
-    { name: "Instagram", icon: "si:instagram", url: "https://instagram.com/tuusuario" },
-    { name: "X",         icon: "si:x",         url: "https://x.com/tuusuario" }
+    { name: "GitHub",    icon: "si:github",    url: "https://github.com/DaichowDev" },
+    { name: "Discord",   icon: "si:discord",   url: "https://discord.com/users/201544043920883712" }
   ],
 
   /* ---------- Skills ---------- */
@@ -125,7 +122,7 @@ window.PORTFOLIO = {
   categories: [
     {
       id: "projects",
-      title: "Proyectos",
+      title: "Projects",
       icon: "🚀",                // emoji, o "si:..." / "devicon:..." / ruta de imagen
       description: "Cosas que construí",
       image: "",                 // opcional: imagen de portada de la categoría
@@ -180,5 +177,5 @@ window.PORTFOLIO = {
   categoryColumns: 2,           // columnas del grid en escritorio (en celular se ajusta solo)
 
   /* ---------- Pie de página ---------- */
-  footer: "Hecho con ❤️ y GitHub Pages"
+  footer: "You can always contact me if you want to work with me :)"
 };
