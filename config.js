@@ -64,7 +64,7 @@ window.PORTFOLIO = {
     ],
     bio: "I like to learn new things everyday!",
     location: "Argentina, Córdoba",      // dejalo vacío "" para ocultarlo
-    badges: ["Student", "Open source", "Modder", ""] // etiquetitas opcionales
+    badges: ["Developer", "Open Source Fan", "Modding Community", "Argentinean"] // etiquetitas opcionales
   },
 
   /* ---------- Música ---------- */
@@ -76,7 +76,7 @@ window.PORTFOLIO = {
     loop: true,                 // al terminar la lista, vuelve a empezar
     // Poné tus archivos en la carpeta assets/music/
     tracks: [
-      { title: "Wings", artist: "Birdy", src: "Music01.mp3", cover: "" }
+      { title: "Wings", artist: "Birdy", src: "/Music01.mp3", cover: "" }
     ]
   },
 
@@ -123,7 +123,7 @@ window.PORTFOLIO = {
       id: "projects",
       title: "Projects",
       icon: "🚀",                // emoji, o "si:..." / "devicon:..." / ruta de imagen
-      description: "Cosas que construí",
+      description: "Things that I have been writing...",
       image: "",                 // opcional: imagen de portada de la categoría
       items: [
         {
@@ -148,13 +148,13 @@ window.PORTFOLIO = {
       id: "mods",
       title: "Mods",
       icon: "🧩",
-      description: "Mods y plugins que hice",
+      description: "Mods & Plugins",
       items: [
         {
-          title: "Mod de ejemplo",
-          description: "Qué agrega o cambia el mod.",
-          tags: ["Minecraft", "Java"],
-          links: [{ label: "Descargar", url: "https://modrinth.com/" }]
+          title: "Mod: 7 Days to Die",
+          description: "Adds new alarm system and sounds to the base game.",
+          tags: ["7Days", "Unity", "XML"],
+          links: [{ label: "Download", url: "https://www.nexusmods.com/7daystodie/mods/8918" }]
         }
       ]
     },
